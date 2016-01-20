@@ -1,48 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+
     <head>
+
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Crafty Sphere</title>
-        <meta name="description" content="Outil connecté de stockage et de partage universel de données">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.ico">
+        <meta name="description" content="Outil connecté de stockage et de partage universel de données">
+        <title>Crafty Sphere</title>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-    </head>
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <header>
-
-    </header>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Crafty Sphere</p>
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <div class="container">
+            <div class="row header">
+                <div class="col-sm-4 logo">
+                    <h1><a href="index.html">   </a> <span>.</span></h1>
+                </div>
+                <div class="col-sm-8 call-us">
+                    <p> <span>@craftysphere</span> | crafty.sphere@gmail.com <span></span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coming Soon -->
+        <div class="coming-soon">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Coming Soon</h2>
+                            <p>Le projet avance mais nous vous demandons encore de patienter...</p>
+                            <div class="timer">
+                                <div class="days-wrapper">
+                                    <span class="days"></span> <br>days
+                                </div>
+                                <div class="hours-wrapper">
+                                    <span class="hours"></span> <br>hours
+                                </div>
+                                <div class="minutes-wrapper">
+                                    <span class="minutes"></span> <br>minutes
+                                </div>
+                                <div class="seconds-wrapper">
+                                    <span class="seconds"></span> <br>seconds
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+
+
+
+
+
+
+
+        <!--PRICING SECTION START-->
+        <section>
+            <div id="cbx-pricing" class="cbx-section cbx-pricing">
+                <div class="cbx-inner">
+                    <div class="container">
+                        <div class="text-center cbx-content">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="cbx-heading">
+                                        <h2 class="uppercase wow fadeInUp">Tarifs</h2>
+                                        <hr noshade size="" width="" color="">
+                                        <p class=" wow fadeInDown">Proin consectetur quis
+                                            tellus nec porttitor. In tempor pulvinar quam elementum bibendum.</p>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4 xs-text-center">
+                                                <div class="single-pricing cbx-single-all wow fadeInLeft">
+                                                    <div class="spricing-top">
+                                                        <h3>Basic</h3>
+                                                        <p>For Small Business</p>
+                                                    </div>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum dolor sit.</li>
+                                                        <li><i class="fa fa-check"></i> Ipsum dolor sit amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum amet.</li>
+                                                        <li><i class="fa fa-times"></i> Lorem sit amet.</li>
+                                                        <li><i class="fa fa-times"></i> Lorem dolor sit amet.</li>
+                                                    </ul>
+                                                    <div class="spricing-bottom">
+                                                        <h3>Free<span></span></h3>
+                                                        <p></p>
+                                                        <a href="#">S'inscrire <i class="fa fa-angle-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div><!--COL 4-->
+                                            <div class="col-xs-12 col-sm-4 xs-text-center">
+                                                <div class="single-pricing cbx-single-all recommended-pricing wow fadeInUp">
+                                                    <div class="spricing-top">
+                                                        <h3>Formules</h3>
+                                                        <p>Choisissez la solution qui répond le mieux à vos besoins.</p>
+                                                    </div>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum dolor sit.</li>
+                                                        <li><i class="fa fa-check"></i> Ipsum dolor sit amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem sit amet.</li>
+                                                        <li><i class="fa fa-times"></i> Lorem dolor sit amet.</li>
+                                                    </ul>
+                                                    <div class="spricing-bottom">
+                                                        <h3><span></span></h3>
+                                                        <p></p>
+                                                        <a href="#">Plus d'infos <i class="fa fa-angle-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div><!--COL 4-->
+                                            <div class="col-xs-12 col-sm-4 xs-text-center">
+                                                <div class="single-pricing cbx-single-all wow fadeInRight">
+                                                    <div class="spricing-top">
+                                                        <h3>Advanced</h3>
+                                                        <p>Something Special</p>
+                                                    </div>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum dolor sit.</li>
+                                                        <li><i class="fa fa-check"></i> Ipsum dolor sit amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem ipsum amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem sit amet.</li>
+                                                        <li><i class="fa fa-check"></i> Lorem dolor sit amet.</li>
+                                                    </ul>
+                                                    <div class="spricing-bottom">
+                                                        <h3>---<span>$</span></h3>
+                                                        <p>Par mois</p>
+                                                        <a href="#">S'inscrire <i class="fa fa-angle-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div><!--COL 4-->
+                                        </div><!--ROW-->
+                                    </div>
+                                </div><!--COL-->
+                            </div><!--ROW-->
+                        </div><!--CBX CONTENT CONTENT-->
+                    </div><!--CONAINER-->
+                </div><!--CBX INNER-->
+            </div><!--CBX SECTION-->
+        </section><!-- Pricing Section End-->
+
+
+
+
+
+
+        <!-- Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 subscribe">
+                    <h3>Inscrivez-vous à notre newsletter.</h3>
+                    <p>Inscrivez-vous maintenant à notre newsletter et soyez les premiers au courant lors de l'ouverture:</p>
+                    <form class="form-inline" role="form" action="assets/subscribe.php" method="post">
+                    	<div class="form-group">
+                    		<label class="sr-only" for="subscribe-email">Email address</label>
+                        	<input type="text" name="email" placeholder="Entrez votre e-mail" class="subscribe-email form-control" id="subscribe-email">
+                        </div>
+                        <button type="submit" class="btn">S'inscrire</button>
+                    </form>
+                    <div class="success-message"></div>
+                    <div class="error-message"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 social">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Flickr"><i class="fa fa-flickr"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
     </body>
+
 </html>
