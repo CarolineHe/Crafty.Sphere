@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $('.coming-soon').backstretch([
-      "assets/img/backgrounds/agenda.jpg"
+      "assets/img/backgrounds/share.jpg"
     , "assets/img/backgrounds/exchange.jpg"
     , "assets/img/backgrounds/reseau.jpg"
     ], {duration: 3000, fade: 750});
